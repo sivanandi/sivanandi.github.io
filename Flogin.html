@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+input[type=text], input[type=password] {
+  width:300px;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display:block;
+  border:none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 300px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  top:0px;
+left:580px;
+position:relative; ;
+border:1px solid black;
+border_width:200px;
+border-spacing:50px;
+width:350px;
+height:420px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.container
+{
+color:black;
+border:2px solid black 100px 100px;
+text-size:12px;
+padding 16px;
+}
+
+.menu a {
+  background-color:#07da63;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  }width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+  color:black
+}
+div.right {
+
+  width:35%;
+
+
+  text-align:center;
+  color:black;
+  position:aboslute;
+  top:150px;
+  right:50px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#para1{
+text-size:24;
+color:red;
+text-align:center;}
+
+#img{
+position:absolute;
+top:30px;
+left:500px;
+
+}
+
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:#059142;padding:15px;text-align:center;color:black">
+	<img id="img" src="uzhavan.jpg" height="100" width="100" >
+  <h1>Ulavan</h1>
+  <h2>"The Farmers Friend"</h2>
+</div>
+
+<div style="overflow:auto">
+  
+	
+
+
+  <div class="main">
+    <h2 style="text-align:center;color:black;">Farmers Portal </h2>
+	
+    <p id="para1">Farmers Dont just work till the sun goes down, They work till the job gets done.</p>
+	<p id="para1">Lets do our best to help our farmers!</p>
+  </div>
+  
+<form id="form1" action="#" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Login</h1>
+    
+    <hr>
+
+    <label for="email"><b>Email/MobileNo.</b></label>
+    <input type="text" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+    
+ 
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Subscribe</button>
+    </div>
+  </div>
+</form>
+ 
+ 
+</div>
+<img 
+
+
+</body>
+
+</html>
+
